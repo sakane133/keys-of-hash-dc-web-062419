@@ -3,6 +3,6 @@ class Hash
     array = []
     arguments.each do |idk|
       idk.each do |key, value|
-        return 
+        array << value
   end
 end

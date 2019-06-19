@@ -3,8 +3,8 @@ class Hash
     array = []
     arguments.each do |idk|
       each do |key, value|
-       if idk = 
-        array << value
+       if idk == value
+        array << key
       end
   end
   return array

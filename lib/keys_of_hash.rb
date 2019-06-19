@@ -4,5 +4,6 @@ class Hash
     arguments.each do |idk|
       idk.each do |key, value|
         array << value
+      end
   end
 end
